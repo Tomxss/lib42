@@ -1,18 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tcoetzee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/05 10:26:56 by tcoetzee          #+#    #+#             */
-/*   Updated: 2020/06/05 10:58:15 by tcoetzee         ###   ########.fr       */
+/*   Created: 2020/06/05 10:28:37 by tcoetzee          #+#    #+#             */
+/*   Updated: 2020/06/05 10:59:26 by tcoetzee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putchar(char c)
+void ft_putstr(char *string)
 {
-    write(1, &c, 1);
+    while (string)
+    {
+        ft_putchar(*string++);
+    }
 }

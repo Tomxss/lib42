@@ -6,11 +6,12 @@
 /*   By: tcoetzee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/05 09:49:39 by tcoetzee          #+#    #+#             */
-/*   Updated: 2020/06/05 10:15:29 by tcoetzee         ###   ########.fr       */
+/*   Updated: 2020/06/05 11:05:12 by tcoetzee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "./includes/get_next_line.h"
+#include "./includes/libft.h"
 
 int main (int ac, char **av)
 {

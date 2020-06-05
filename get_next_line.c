@@ -6,14 +6,14 @@
 /*   By: tcoetzee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/05 09:30:18 by tcoetzee          #+#    #+#             */
-/*   Updated: 2020/06/05 10:14:26 by tcoetzee         ###   ########.fr       */
+/*   Updated: 2020/06/05 11:02:37 by tcoetzee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "./includes/get_next_line.h"
 
 int get_next_line(const int fd, char **line)
 {
-    printf("%s", line);
+    printf("%s", *line);
     return (0);
 }
